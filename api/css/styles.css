@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.user-list {
+    width: 33%;
+    background-color: ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.user-data {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.user-data img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.user-data h3 {
+    text-align: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
