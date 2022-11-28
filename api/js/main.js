@@ -10,7 +10,7 @@ function mostrarUsuarios(usuario) {
     let body = document.getElementById('data').innerHTML;
 
     for (let i = 0; i < usuario.length; i++) {
-        body += `<div class="user-data" id="data">
+        body += `<div class="user-data" >
         <img src="${usuario[i].avatar}" alt="" srcset="">
         <h3>${usuario[i].first_name} ${usuario[i].last_name}</h3>
     </div>`;
